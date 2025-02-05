@@ -11,4 +11,6 @@ if (userName !== 'Максим') {
     console.log ('Максиму рано думать о взрослой жизни')
 } else if (!isRich || !withGoodJob || hasMotivation && hasFreeTime) {
     console.log('Максиму нужно учить язык программирования')
+} else {
+    console.log('Видимо, ты и так обеспечен до конца жизни')
 }
