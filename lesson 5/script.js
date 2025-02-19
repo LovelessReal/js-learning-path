@@ -88,3 +88,4 @@ console.log(!111)//false
 console.log(!!0) //false
 console.log(!!1) //true
 console.log(!!'')//false
+console.log(!!'  ')//true
