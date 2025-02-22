@@ -86,3 +86,4 @@ console.log(!111)//false
 
 //При помощи !! можно перевести любой тип к булевому 
 console.log(!!0) //false
+console.log(!!1) //true
