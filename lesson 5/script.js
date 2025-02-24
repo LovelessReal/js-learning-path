@@ -83,3 +83,6 @@ console.log(!'') // true
 console.log(!'Hello') // false
 console.log(!0) //true
 console.log(!111)//false
+
+//При помощи !! можно перевести любой тип к булевому 
+console.log(!!0) //false
