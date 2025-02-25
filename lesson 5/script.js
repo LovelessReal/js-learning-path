@@ -81,3 +81,5 @@ console.log (!false) //в консоли отобразится true
 console.log (!true) //в консоли отобразится false
 console.log(!'') // true
 console.log(!'Hello') // false
+console.log(!0) //true
+console.log(!111)//false
