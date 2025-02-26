@@ -79,3 +79,5 @@ if (moneyInWallet >= iceCreamPrice && shopIsOpen) {
 
 console.log (!false) //в консоли отобразится true
 console.log (!true) //в консоли отобразится false
+console.log(!'') // true
+console.log(!'Hello') // false
