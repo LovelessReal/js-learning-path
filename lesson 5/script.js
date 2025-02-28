@@ -73,3 +73,9 @@ if (moneyInWallet >= iceCreamPrice && shopIsOpen) {
 } else {
     console.log ('u will buy it next time')
 }
+
+//Оператор  ! (НЕ)
+//Приводит к булевому типу, а потому инвентирует в противоположный
+
+console.log (!false) //в консоли отобразится true
+console.log (!true) //в консоли отобразится false
