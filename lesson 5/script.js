@@ -64,3 +64,12 @@ console.log (true && false) // false
 console.log (false && true) // false
 console.log (true && true) // true
 
+const moneyInWallet = 100
+const iceCreamPrice = 100
+const shopIsOpen = false
+
+if (moneyInWallet >= iceCreamPrice && shopIsOpen) {
+    console.log ('u can buy this ice cream ')
+} else {
+    console.log ('u will buy it next time')
+}
