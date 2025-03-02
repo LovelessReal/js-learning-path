@@ -38,7 +38,7 @@ console.log(words)
 
 //Сравнение нескольких условий
 
-//Логический оператор "ИЛИ"
+//Логический оператор "ИЛИ" (равноценен операции логического сложения)
 
 false || false //false
 true || false //true
@@ -57,4 +57,10 @@ if (age > 18 || withParent) {
 const result = '' || false || null || undefined || 0 || 'Hello' //Присваивание будет работать до тех пор, пока не напорется на true
 console.log (result)
 
-//Второй оператор && (И)
+//Второй оператор && (И) (равноценен операции логического умножения)
+
+console.log(false && false) // false
+console.log (true && false) // false
+console.log (false && true) // false
+console.log (true && true) // true
+
