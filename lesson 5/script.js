@@ -53,3 +53,6 @@ if (age > 18 || withParent) {
 } else {
     console.log ('Несовершеннолетним вход закрыт')
 }
+
+const result = '' || false || null || undefined || 0 || 'Hello' //Присваивание будет работать до тех пор, пока не напорется на true
+console.log (result)
