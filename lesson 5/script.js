@@ -35,3 +35,21 @@ const words = y = 15
 */
 
 console.log(words)
+
+//Сравнение нескольких условий
+
+//Логический оператор "ИЛИ"
+
+false || false //false
+true || false //true
+false ||true //true
+true || true //true
+
+const age = 15
+const withParent = true
+
+if (age > 18 || withParent) {
+    console.log('Проходите')
+} else {
+    console.log ('Несовершеннолетним вход закрыт')
+}
