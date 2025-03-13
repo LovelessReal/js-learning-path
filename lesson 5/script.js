@@ -1,4 +1,5 @@
 const year = 2025
+
 if (year == 2025) {
     console.log('Ура!')
     console.log('Самое время изучать JS')
@@ -7,3 +8,4 @@ if (year == 2025) {
 } else {
     console.log('Too late...')
 }
+
