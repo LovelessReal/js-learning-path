@@ -34,3 +34,11 @@ console.log (
 
 const points = '10'
 const my_point = Number(points) //Преобразование из строки в число
+
+console.log (
+    Number (true) // true преобразуется в 1
+)
+
+console.log (
+    Number (false) // false преобразуется в 0
+)
