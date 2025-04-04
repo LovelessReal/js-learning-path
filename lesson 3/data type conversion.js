@@ -21,4 +21,8 @@ console.log (
 
 const years = 11
 console.log(typeof (years)) //В консоли отобразится тип данных Number
-console.log(typeof (String(years))) //В консоли отобразится тип данныз String
+console.log(typeof (String(years))) //В консоли отобразится тип данныз String. Это явное преобразование
+
+const isAdult = false 
+console.log (isAdult) //В консоли отобразится false синим цветом (как булевое значение)
+console.log (String(isAdult)) //В консоли отобразится false черным цветом (как значение типа String)
