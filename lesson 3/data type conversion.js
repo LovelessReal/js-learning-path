@@ -20,5 +20,5 @@ console.log (
 //Несмотря на возможность преобразования, смешивать типы данных и производить операции между ними - плохая практика
 
 const years = 11
-console.log(years) 
-console.log(String(years))
+console.log(typeof (years)) //В консоли отобразится тип данных Number
+console.log(typeof (String(years))) //В консоли отобразится тип данныз String
