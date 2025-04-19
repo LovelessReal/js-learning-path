@@ -69,8 +69,8 @@ console.log (isBig) //В консоли выведется true
 const list = {}
 
 const Naruto = { //Наборы ключ-значения
-    village: Konoha,
-    rank: genin,
+    village: 'Konoha',
+    rank: 'genin',
 }
 const numbers = [1, 4, 6, 8] //Массивы
 
