@@ -11,4 +11,4 @@ const user = {   //Object
     password: 'qwer',
 }
 
-const data = null 
+const data = null //Null
