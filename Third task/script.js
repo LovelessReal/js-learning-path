@@ -6,7 +6,7 @@ const power = 99999999999n // BigInt
 const sign = Symbol () // Symbol
 const something = undefined //Undefined
 
-const user = {
+const user = {   //Object
     login: '123',
     password: 'qwer',
 }
