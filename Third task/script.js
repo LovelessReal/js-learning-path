@@ -5,3 +5,8 @@ const isQA = true //Boolean
 const power = 99999999999n // BigInt
 const sign = Symbol () //
 const something = undefined //
+
+const user = {
+    login: '123',
+    password: 'qwer',
+}
