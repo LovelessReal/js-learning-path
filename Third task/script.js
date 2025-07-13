@@ -10,3 +10,5 @@ const user = {
     login: '123',
     password: 'qwer',
 }
+
+const data = null 
