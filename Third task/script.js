@@ -68,13 +68,16 @@ console.log (isBig) //В консоли выведется true
 //Тип данных Объект. Object.
 const list = {}
 
-const Naruto { //Наборы ключ-значения
+const Naruto = { //Наборы ключ-значения
     village: Konoha,
     rank: genin,
 }
-const numbers [1, 4, 6, 8] //Массивы
+const numbers = [1, 4, 6, 8] //Массивы
 
 const map = new Map () //Коллекции
 const set = new Set ()
 const date = new Date ()
 
+console.log (     //typeof помогает определить тип нужного нам объекта и даже целых выражений
+    typeof [4, 6, 8]
+) 
