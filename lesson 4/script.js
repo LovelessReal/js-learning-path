@@ -21,3 +21,20 @@ let count = 1
 
 count = count + 2 //Изначальное значение увеличится на 2
 count +=2 //Упрощенный вариант этой же записи
+
+count -=5 //count = count - 5
+count *=10 // count = count * 10
+count /=3 // count = count / 3
+
+count = 10
+count-- //декрементация, т.е. уменьшение на 1
+count++ //инкрементация т.е. увеличение на 1
+
+console.log(5 > 3) // true
+console.log(5 < 3) //false
+console.log(2 >= 2) //true
+console.log(3 <= 0) //false
+console.log(5 == 5) //true
+console.log(5 != 5) //false (аналог знака перечеркнутого равно)
+
+console.log(2 == '2') //true JS привел данные к единому типу данных и сравнил их. Это нестрогое сравнение
