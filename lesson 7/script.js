@@ -7,7 +7,7 @@ while (count < 10) {
 let year = 2024
 
 do {
-    console.log(year)
+    console.log(year) //В этом случае сначала будет выполнен код, а потом проверено условие
     yera++
 }
 
