@@ -18,3 +18,5 @@ while (year < 2025)
     for (let i = 0; i<4; i++) {
         alert(i)
     }
+
+    console.log('цикл завершен')
