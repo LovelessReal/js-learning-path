@@ -20,3 +20,47 @@ function log_hello() {
 }
 
 log_hello() //Вызов функции
+
+function have_a_good_day() {
+console.log('Hi')
+console.log('Glad to see u')
+console.log('Have a good day')
+}//Внутри тела функции может быть сколько угодно инструкций. Все они выполнятся при вызове.
+
+have_a_good_day()
+have_a_good_day()
+have_a_good_day()
+
+//Область видимости
+
+const song = ('I walk a lonely road, the only one that i have ever know')
+function log_song() {
+    console.log (song) //Мы легко обращаемся к переменно извне
+}
+
+
+function log_song1() {
+    const song1 = ('Dont know where it goes but its home to me and i walk alone')
+    console.log (song1) //Мы легко обращаемся к переменно извне
+}
+//Но обратиться к переменной song1 вне функции нельзя, так как она вне зоны видимости
+
+{
+    const song2 = ('I walk this empty street')
+    console.log(song2)
+    {
+        const song2 = ('On the Boulevard of Broken Dreams')
+        console.log(song2)
+        {
+            const song2 = ('Where the city sleeps And Im the only one, and I walk alone')
+            console.log(song2)
+        }
+    }
+}
+
+function log_message(message, count) {
+    for (let i = 0; i < count; i++) 
+        console.log(message)
+}
+log_message('I walk alone, I walk alone', 2)
+log_message('I walk alone, I walk a-', 1)
