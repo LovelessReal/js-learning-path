@@ -58,9 +58,9 @@ function log_song1() {
     }
 }
 
-function log_message(message, count) {
+function log_message(message, count) { //message и count - параметры функции
     for (let i = 0; i < count; i++) 
         console.log(message)
 }
-log_message('I walk alone, I walk alone', 2)
-log_message('I walk alone, I walk a-', 1)
+log_message('I walk alone, I walk alone', 2) // при вызове функции параметры становятся аргументами
+log_message('I walk alone, I walk a-', 1) //Перечисляются они в том же порядке, что и параметры 
