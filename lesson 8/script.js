@@ -15,6 +15,8 @@ const answer = prompt('Введите ответ')
 
 //Напишем свою функцию
 
-function logHello() {
-    console.log('Привет')
+function log_hello() {
+    console.log('Привет') //Изначально код в скобках не будет выполняться. Функцию необходимо вызвать.
 }
+
+log_hello() //Вызов функции
