@@ -48,7 +48,7 @@ console.log (
  console.log (Boolean(1)) //Преобразуется в true
  console.log (Boolean(2)) //Преобразуется в true
 
-  console.log (Boolean('текст')) //Преобразуется в true
+console.log (Boolean('текст')) //Преобразуется в true
  console.log (Boolean('0')) //Преобразуется в false
  console.log (Boolean(' ')) //Преобразуется в true
  console.log (Boolean('')) //Отсутствие всяких симолов (даже пробела) преобразует строку в false
