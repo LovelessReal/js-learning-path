@@ -25,12 +25,11 @@ console.log(last_letter)
 
 //Дано число. Проверьте, четное оно или нет.
 
-let user_number = prompt ('Введите какое-то число')
-user_number = Number(user_number)
- k = (user_number % 2)
- if (k > 0) {
+let user_number = Number(prompt ('Введите какое-то число'))
+
+ if (user_number % 2 > 0) {
     console.log('Было введено нечетное число')
  }
- if (k == 0) {
+ else (user_number % 2 == 0) {
     console.log ('Было введено четное число')
  }
