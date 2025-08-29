@@ -30,6 +30,27 @@ let user_number = Number(prompt ('Введите какое-то число'))
  if (user_number % 2 > 0) {
     console.log('Было введено нечетное число')
  }
- else (user_number % 2 == 0) {
+ else if (user_number % 2 == 0) {
     console.log ('Было введено четное число')
+ }
+
+ //Даны два слова. Проверьте, что первые буквы этих слов совпадают.
+
+ let first_word = prompt ('Вводим первое слово')
+ let second_word = prompt ('Вводим второе слово')
+ if (first_word.charAt(0).toLowerCase() === second_word.charAt(0).toLowerCase()) { //charAt(0) - берет первые символы а .toLowerCase() позволяет проигнорить разницу в регистре
+    console.log ('Первые буквы этих слов равны')
+ }
+ else {
+    console.log ('Первые буквы этих слов не равны')
+ }
+
+ //Дано слово. Получите его последнюю букву. Если слово заканчивается на мягкий знак, то получите предпоследнюю букву.
+
+ let user_word = prompt ('Еще одно слово')
+ if (user_word.slice(-1) === 'ь') {
+    console.log(user_word[user_word.length -2])
+ }
+ else {
+    console.log (user_word[user_word.length -1]) //[user_word.length -1] означает посленюю цифру, а -2 - предпоследнюю
  }
