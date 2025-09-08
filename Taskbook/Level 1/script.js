@@ -38,7 +38,8 @@ let user_number = Number(prompt ('Введите какое-то число'))
 
  let first_word = prompt ('Вводим первое слово')
  let second_word = prompt ('Вводим второе слово')
- if (first_word.charAt(0).toLowerCase() === second_word.charAt(0).toLowerCase()) { //charAt(0) - берет первые символы а .toLowerCase() позволяет проигнорить разницу в регистре
+ if (first_word[0].toLowerCase() === second_word[0].toLowerCase()) { 
+   //.toLowerCase() позволяет проигнорить разницу в регистре
     console.log ('Первые буквы этих слов равны')
  }
  else {
