@@ -20,7 +20,7 @@ let first_number = prompt ('Введите первое число')
 
  //Дано число. Выведите в консоль последнюю цифру этого числа.
 
- let user_numeric = Number (prompt ('Вводим число, в консоли будет выведена последняя цифра числа').trim())
+ let user_numeric = Number (prompt ('Вводим число, в консоли будет выведена последняя цифра числа').trim())//Убирает в конце пробелы
  if (isNaN(user_numeric)) {
     console.log ('Это не число')
  }
@@ -30,10 +30,23 @@ let first_number = prompt ('Введите первое число')
 
  //Но этот код работает только при условии ввода целого числа. Рассмотрим второй вариант
 
- let user_input = prompt ('Введите целое или десятичное число').trim() //Убирает введенные в конце пробелы
+ let user_input = prompt ('Введите целое или десятичное число').trim() //Убирает в конце пробелы
  if (isNaN(Number(user_input)) || user_input === '') { 
     console.log ('Это не число')
  }
  else {
 console.log (user_input.slice(-1))
+ }
+
+ //Дано число. Выведите в консоль сумму первой и последней цифры этого числа.
+
+ let user_choice = prompt ('Введите число, которое состояло бы больше, чем из одной цифры').trim()
+ if (isNaN(Number(user_choice)) || user_choice === '' || Math.abs(Number(user_choice)) < 10) {
+   console.log ('Введенное число не удовлетворяет требованиям')
+ }
+ else {
+   let first_digit = Number(user_choice[0]);
+  let last_digit = Number(user_choice[user_choice.length - 1]);
+  let numerics_sum = first_digit + last_digit;
+   console.log (numerics_sum)
  }
