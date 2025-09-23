@@ -50,3 +50,20 @@ console.log (user_input.slice(-1))
   let numerics_sum = first_digit + last_digit;
    console.log (numerics_sum)
  }
+
+
+ //Дано число. Выведите количество цифр в этом числе.
+let numero = prompt('Введите число').trim()
+let num = Number(numero)   // преобразуем один раз
+
+if (isNaN(num) || numero === '') {
+  console.log('Некорректно введенные данные')
+}
+else {
+  let x = 1
+  while (num >= 10) {
+    num = Math.floor(num / 10)
+    x++
+  }
+  console.log(`В введенном числе ${x} цифр`)
+}
