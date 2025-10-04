@@ -67,3 +67,23 @@ else {
   }
   console.log(`В введенном числе ${x} цифр`)
 }
+
+//Даны два числа. Проверьте, что первые цифры этих чисел совпадают.
+
+let first_user_number = prompt ('Введите первое число').trim()
+let second_user_number = prompt ('Введите второе число').trim()
+
+
+if (isNaN(first_user_number) || isNaN(second_user_number) || first_user_number === '' || second_user_number === '') {
+  console.log ('Вы ввели некорректные данные')
+} 
+else {
+  let first_numb = Math.abs(first_user_number).toString()[0]
+  let second_numb = Math.abs(second_user_number).toString()[0]
+  if (first_numb === second_numb) {
+    console.log ('Первые цифры введенных чисел совпадают')
+  }
+  else {
+    console.log ('Первые цифры введенных чисел не совпадают')
+  }
+}
